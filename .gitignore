@@ -1,0 +1,17 @@
+.env
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/data/*.db
+server/data/*.db-*
+server/src/data/*.db
+server/src/data/*.db-*
+*.log
+.DS_Store
+
+.vercel
