@@ -86,7 +86,11 @@ export function EvaluationPanel({ task, submitting, onSubmit }) {
           <textarea
             value={form.notes}
             onChange={(event) => update('notes', event.target.value)}
+<<<<<<< HEAD
             placeholder="Explain the Prompt-based reason for your decision..."
+=======
+            placeholder="Explain the rubric-based reason for your decision..."
+>>>>>>> c3b627fb340f2766d33bafdf9b9d1fa6ad314f6d
             rows="4"
           />
         </label>

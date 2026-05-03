@@ -13,5 +13,8 @@ server/src/data/*.db
 server/src/data/*.db-*
 *.log
 .DS_Store
+<<<<<<< HEAD
 
 .vercel
+=======
+>>>>>>> c3b627fb340f2766d33bafdf9b9d1fa6ad314f6d
