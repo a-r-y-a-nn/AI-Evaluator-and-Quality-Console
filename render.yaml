@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: ethara-evalops-api
+    env: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: JWT_SECRET
+        generateValue: true
+      - key: DB_PATH
+        value: ./src/data/evalops.db
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: OPENAI_MODEL
+        value: gpt-4o-mini
+      - key: NODE_VERSION
+        value: 24
