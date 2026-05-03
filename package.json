@@ -4,11 +4,7 @@
   "private": true,
   "description": "Full-stack LLM evaluation operations demo for AI post-training workflows.",
   "engines": {
-<<<<<<< HEAD
     "node": ">=20 <25"
-=======
-    "node": ">=24"
->>>>>>> c3b627fb340f2766d33bafdf9b9d1fa6ad314f6d
   },
   "scripts": {
     "dev": "npm-run-all --parallel dev:server dev:client",

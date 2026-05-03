@@ -77,7 +77,7 @@ export function EvaluationPanel({ task, submitting, onSubmit }) {
           <select value={form.winner} onChange={(event) => update('winner', event.target.value)}>
             <option value="response_a">Response A</option>
             <option value="response_b">Response B</option>
-            <option value="tie">Tie</option>
+            <option value="tie">Both</option>
           </select>
         </label>
 
@@ -86,11 +86,7 @@ export function EvaluationPanel({ task, submitting, onSubmit }) {
           <textarea
             value={form.notes}
             onChange={(event) => update('notes', event.target.value)}
-<<<<<<< HEAD
-            placeholder="Explain the Prompt-based reason for your decision..."
-=======
-            placeholder="Explain the rubric-based reason for your decision..."
->>>>>>> c3b627fb340f2766d33bafdf9b9d1fa6ad314f6d
+            placeholder="Explain the Instruction-based reason for your decision..."
             rows="4"
           />
         </label>

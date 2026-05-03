@@ -28,7 +28,7 @@ app.get('/api/docs', (req, res) => {
       <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Ethara EvalOps API Docs</title>
+        <title>AI EvalOps API Docs</title>
         <style>
           body {
             margin: 0;
@@ -78,7 +78,7 @@ app.get('/api/docs', (req, res) => {
       </head>
       <body>
         <main>
-          <h1>Ethara EvalOps API</h1>
+          <h1>AI EvalOps API</h1>
           <p>Browser-friendly API overview for the LLM evaluation operations demo.</p>
 
           <section>
