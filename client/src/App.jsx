@@ -134,7 +134,7 @@ export default function App() {
       <main className="login-page">
         <section className="hero-card">
           <div className="brand-mark"><BrainCircuit size={32} /></div>
-          <p className="eyebrow">Full-stack assignment demo</p>
+          
           <h1>LLM Evaluation Ops for post-training teams</h1>
           <p className="hero-copy">
             A compact workflow for RLHF/SFT-style response evaluation, rubric scoring, quality review, and operational metrics.
@@ -143,7 +143,7 @@ export default function App() {
 
         <form className="login-card" onSubmit={handleLogin}>
           <h2>Evaluator Login</h2>
-          <p>Use the seeded demo account to explore the live workflow.</p>
+          <p>Use the Demo account to explore the live workflow.</p>
           <label>Email<input value={loginForm.email} onChange={(event) => setLoginForm({ ...loginForm, email: event.target.value })} /></label>
           <label>Password<input type="password" value={loginForm.password} onChange={(event) => setLoginForm({ ...loginForm, password: event.target.value })} /></label>
           {status.error && <div className="alert error">{status.error}</div>}
