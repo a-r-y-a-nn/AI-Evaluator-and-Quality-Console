@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: ethara-evalops-api
+    name: AI Evaluator and Quality Console
     env: node
     rootDir: server
     buildCommand: npm install
