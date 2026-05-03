@@ -1,4 +1,4 @@
-# Ethara EvalOps Demo
+# AI Evaluator and Quality Console
 
 A full-stack LLM evaluation operations demo for post-training workflows. Evaluators can generate two model responses from a user prompt, compare Response A and Response B, score them with a rubric, and save the result as preference-style training data.
 
