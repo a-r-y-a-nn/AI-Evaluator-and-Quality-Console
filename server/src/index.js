@@ -152,6 +152,12 @@ app.use('/api/metrics', metricRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-app.listen(config.port, () => {
-  console.log(`EvalOps API running on http://localhost:${config.port}`);
-});
+const isServerless = Boolean(process.env.VERCEL);
+
+if (!isServerless) {
+  app.listen(config.port, () => {
+    console.log(`EvalOps API running on http://localhost:${config.port}`);
+  });
+}
+
+export default app;
