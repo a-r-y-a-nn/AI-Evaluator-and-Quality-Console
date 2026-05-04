@@ -1,12 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
-<<<<<<< HEAD
-  "framework": "vite",
-  "env": {
-    "VITE_API_URL": "@vite-api-url"
-  }
-=======
   "framework": "vite"
->>>>>>> c3b627fb340f2766d33bafdf9b9d1fa6ad314f6d
 }
