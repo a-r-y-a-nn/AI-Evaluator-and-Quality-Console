@@ -4,7 +4,7 @@ dotenv.config();
 
 export const config = {
   port: Number(process.env.PORT || 5000),
-  clientOrigin: process.env.CLIENT_ORIGIN || 'http://localhost:5173',
+  clientOrigin: process.env.CLIENT_ORIGIN || 'https://ai-evaluator-and-quality-console.onrender.com',
   jwtSecret: process.env.JWT_SECRET || 'dev-only-change-me',
   dbPath: process.env.DB_PATH || './src/data/evalops.db',
   openaiApiKey: process.env.OPENAI_API_KEY || '',
